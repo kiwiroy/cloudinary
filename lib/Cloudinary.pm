@@ -7,7 +7,7 @@ use Scalar::Util 'weaken';
 
 our $VERSION = '0.16';
 our (%SHORTER, %LONGER);
-my @SIGNATURE_KEYS = qw(callback eager format public_id tags timestamp transformation type);
+my @SIGNATURE_KEYS = qw(auto_tagging callback detection eager exif folder format media_metadata public_id tags timestamp transformation type);
 
 {
   %LONGER = (
